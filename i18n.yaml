@@ -1,0 +1,9 @@
+# Registry display text in the platform's other locales.
+#
+# The base fields -- SKILL.md's `description` and cerase.json's -- are the SOURCE
+# locale and are English; package_translations forbids a row for it, so this file
+# can only ever hold the others. It is registry metadata: the seeder keeps it out
+# of the bundle that ships to the agent.
+it:
+  display_name: "Solleciti di pagamento"
+  description: "Usa quando la persona chiede di sollecitare fatture non pagate o scadute, di ricordare un pagamento a un cliente, o l'elenco dei clienti che devono dei soldi. Legge le fatture clienti aperte dal connettore della contabilità, o dal file o dall'elenco che la persona dà, e cerca nella posta della persona l'indirizzo di un cliente che i dati non hanno. Elenca le fatture per cliente con scadenza, importo ancora dovuto e giorni di ritardo, e dopo che la persona sceglie chi sollecitare scrive un sollecito per cliente con tutte le sue fatture aperte, con un tono che segue il ritardo. Ogni sollecito viene creato come bozza o inviato solo dopo che la persona approva quella chiamata; nessun importo, fattura o dato bancario viene inventato."

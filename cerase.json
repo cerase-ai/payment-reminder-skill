@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "namespace": "studio.guidance",
+  "name": "payment-reminder",
+  "type": "skill",
+  "display_name": "Payment reminder",
+  "description": "Use when the person asks to chase unpaid or overdue invoices, to remind a customer of a payment, or for the list of customers who owe money. It reads the open customer invoices from the accounting connector, or from the file or list the person gives, and searches the person's mail for a customer's address the data lacks. It lists the invoices by customer with their due dates, amounts still owed and days late, and after the person chooses whom to remind writes one reminder per customer listing all their open invoices, in a tone that follows how late they are. Each reminder is created as a draft or sent only once the person approves that call; no amount, invoice or bank detail is invented.",
+  "license": "MIT"
+}
